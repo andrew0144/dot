@@ -1,0 +1,12 @@
+-- vim.g.clipboard = {
+--   name = "Klipper",
+--   copy = {
+--     ["+"] = { "qdbus", "org.kde.klipper", "/org/kde/klipper/Clipboard", "setClipboard", "" },
+--     ["*"] = { "qdbus", "org.kde.klipper", "/org/kde/klipper/Clipboard", "setClipboard", "" },
+--   },
+--   paste = {
+--     ["+"] = { "qdbus", "org.kde.klipper", "/org/kde/klipper/Clipboard", "getClipboard" },
+--     ["*"] = { "qdbus", "org.kde.klipper", "/org/kde/klipper/Clipboard", "getClipboard" },
+--   },
+--   cache_enabled = false,
+-- }
